@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-01-19 09:32:41.682938",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_uto8",
+  "chave",
+  "valor",
+  "assinatura",
+  "geolocalizacao",
+  "editor_de_texto",
+  "cod_de_barras",
+  "json"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_uto8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "chave",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Chave",
+   "no_copy": 1,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "valor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Valor",
+   "reqd": 1
+  },
+  {
+   "fieldname": "assinatura",
+   "fieldtype": "Signature",
+   "label": "Assinatura"
+  },
+  {
+   "fieldname": "geolocalizacao",
+   "fieldtype": "Geolocation",
+   "label": "Geolocaliza\u00e7\u00e3o"
+  },
+  {
+   "fieldname": "editor_de_texto",
+   "fieldtype": "Text Editor",
+   "label": "Editor de texto"
+  },
+  {
+   "fieldname": "cod_de_barras",
+   "fieldtype": "Barcode",
+   "label": "C\u00f3digo de barras"
+  },
+  {
+   "fieldname": "json",
+   "fieldtype": "JSON",
+   "label": "JSON"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-19 09:39:00.598504",
+ "modified_by": "Administrator",
+ "module": "Calc Nutricional",
+ "name": "Teste",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
