@@ -1,6 +1,6 @@
 ## Calc Nutricional
 
-Aplicação destinada ao calculo nutricional
+Cálculo nutricional
 
 #### License
 

@@ -1,7 +1,7 @@
 app_name = "calc_nutricional"
 app_title = "Calc Nutricional"
-app_publisher = "lorencattoaugusto@gmail.com"
-app_description = "Aplicação destinada ao calculo nutricional"
+app_publisher = "Augusto Lorencatto"
+app_description = "Cálculo nutricional"
 app_email = "lorencattoaugusto@gmail.com"
 app_license = "mit"
 
