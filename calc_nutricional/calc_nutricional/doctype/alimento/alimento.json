@@ -1,0 +1,273 @@
+{
+ "actions": [],
+ "allow_auto_repeat": 1,
+ "allow_import": 1,
+ "autoname": "autoincrement",
+ "creation": "2025-01-23 06:50:29.129839",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "informa\u00e7\u00f5es_section",
+  "alimento",
+  "fonte",
+  "column_break_vlll",
+  "cod_item",
+  "macronutrientes_section",
+  "energia",
+  "carboidrato",
+  "proteina",
+  "column_break_yqyx",
+  "lipidios",
+  "fibra",
+  "column_break_0v7s",
+  "sodio",
+  "vitaminas_section",
+  "vit_a",
+  "vit_c",
+  "vit_d",
+  "column_break_qzcn",
+  "vit_b1",
+  "vit_b6",
+  "vit_b12",
+  "column_break_s9zj",
+  "vit_k",
+  "vit_niacina",
+  "vit_folato",
+  "minerais_section",
+  "min_ca",
+  "min_p",
+  "min_k",
+  "min_se",
+  "column_break_7jgp",
+  "min_mg",
+  "min_i",
+  "min_zn",
+  "gorduras_section",
+  "trans",
+  "column_break_3tex",
+  "saturada"
+ ],
+ "fields": [
+  {
+   "fieldname": "alimento",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Alimento",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "energia",
+   "fieldtype": "Float",
+   "label": "energia"
+  },
+  {
+   "fieldname": "min_ca",
+   "fieldtype": "Float",
+   "label": "C\u00e1lcio"
+  },
+  {
+   "fieldname": "carboidrato",
+   "fieldtype": "Float",
+   "label": "Carboidrato"
+  },
+  {
+   "fieldname": "vit_a",
+   "fieldtype": "Float",
+   "label": "Vitamina A"
+  },
+  {
+   "fieldname": "vit_c",
+   "fieldtype": "Float",
+   "label": "Vitamina C"
+  },
+  {
+   "fieldname": "min_p",
+   "fieldtype": "Float",
+   "label": "F\u00f3sforo"
+  },
+  {
+   "fieldname": "proteina",
+   "fieldtype": "Float",
+   "label": "Prote\u00edna"
+  },
+  {
+   "fieldname": "vit_d",
+   "fieldtype": "Float",
+   "label": "Vitamina D"
+  },
+  {
+   "fieldname": "vit_b1",
+   "fieldtype": "Float",
+   "label": "Vitamina B1"
+  },
+  {
+   "fieldname": "min_mg",
+   "fieldtype": "Float",
+   "label": "Magn\u00e9sio"
+  },
+  {
+   "fieldname": "fibra",
+   "fieldtype": "Float",
+   "label": "Fibras"
+  },
+  {
+   "fieldname": "sodio",
+   "fieldtype": "Float",
+   "label": "S\u00f3dio"
+  },
+  {
+   "fieldname": "vit_k",
+   "fieldtype": "Float",
+   "label": "Vitamina K"
+  },
+  {
+   "fieldname": "vit_niacina",
+   "fieldtype": "Float",
+   "label": "Vitamina Niacina"
+  },
+  {
+   "fieldname": "min_zn",
+   "fieldtype": "Float",
+   "label": "Zinco"
+  },
+  {
+   "fieldname": "vit_b6",
+   "fieldtype": "Float",
+   "label": "Vitamina B6"
+  },
+  {
+   "fieldname": "min_i",
+   "fieldtype": "Float",
+   "label": "Iodo"
+  },
+  {
+   "fieldname": "vit_folato",
+   "fieldtype": "Float",
+   "label": "Vitamina Folato"
+  },
+  {
+   "fieldname": "min_se",
+   "fieldtype": "Float",
+   "label": "Sel\u00eanio"
+  },
+  {
+   "fieldname": "vit_b12",
+   "fieldtype": "Float",
+   "label": "Vitamina B12"
+  },
+  {
+   "fieldname": "min_k",
+   "fieldtype": "Float",
+   "label": "Pot\u00e1ssio"
+  },
+  {
+   "fieldname": "trans",
+   "fieldtype": "Float",
+   "label": "Trans"
+  },
+  {
+   "fieldname": "saturada",
+   "fieldtype": "Float",
+   "label": "Saturada"
+  },
+  {
+   "fieldname": "fonte",
+   "fieldtype": "Data",
+   "label": "Fonte"
+  },
+  {
+   "fieldname": "macronutrientes_section",
+   "fieldtype": "Section Break",
+   "label": "Geral"
+  },
+  {
+   "fieldname": "vitaminas_section",
+   "fieldtype": "Section Break",
+   "label": "Vitaminas - Lipossol\u00faveis"
+  },
+  {
+   "fieldname": "column_break_vlll",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_0v7s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "informa\u00e7\u00f5es_section",
+   "fieldtype": "Section Break",
+   "label": "Informa\u00e7\u00f5es"
+  },
+  {
+   "fieldname": "lipidios",
+   "fieldtype": "Float",
+   "label": "Lip\u00eddios"
+  },
+  {
+   "fieldname": "column_break_yqyx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "minerais_section",
+   "fieldtype": "Section Break",
+   "label": "Minerais"
+  },
+  {
+   "fieldname": "column_break_7jgp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gorduras_section",
+   "fieldtype": "Section Break",
+   "label": "Gorduras"
+  },
+  {
+   "fieldname": "column_break_3tex",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_qzcn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_s9zj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_if_empty": 1,
+   "fieldname": "cod_item",
+   "fieldtype": "Link",
+   "label": "Item",
+   "options": "Item"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-23 11:01:59.744028",
+ "modified_by": "Administrator",
+ "module": "Calc Nutricional",
+ "name": "Alimento",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
