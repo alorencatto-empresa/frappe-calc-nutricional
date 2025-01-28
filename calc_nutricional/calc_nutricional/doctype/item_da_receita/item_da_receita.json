@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-01-27 19:07:43.180541",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_lxhu",
+  "ingrediente",
+  "percapta",
+  "medida_caseira"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_lxhu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ingrediente",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ingrediente",
+   "reqd": 1
+  },
+  {
+   "fieldname": "percapta",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Per capta",
+   "reqd": 1
+  },
+  {
+   "fieldname": "medida_caseira",
+   "fieldtype": "Data",
+   "label": "Medida Caseira"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-28 06:03:36.162046",
+ "modified_by": "Administrator",
+ "module": "Calc Nutricional",
+ "name": "Item da Receita",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

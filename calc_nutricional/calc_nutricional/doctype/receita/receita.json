@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-01-27 18:59:46.402795",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_uihg",
+  "merenda",
+  "column_break_siuf",
+  "titulo",
+  "section_break_zkzg",
+  "itens",
+  "section_break_tviw",
+  "modo_de_preparo"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_uihg",
+   "fieldtype": "Section Break",
+   "label": "Geral"
+  },
+  {
+   "fieldname": "merenda",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Merenda",
+   "options": "Merenda",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "titulo",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Titulo",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "modo_de_preparo",
+   "fieldtype": "Text Editor",
+   "label": "Modo de preparo"
+  },
+  {
+   "fieldname": "itens",
+   "fieldtype": "Table",
+   "label": "Itens",
+   "options": "Item da Receita"
+  },
+  {
+   "fieldname": "section_break_tviw",
+   "fieldtype": "Section Break",
+   "label": "Modo de preparo"
+  },
+  {
+   "fieldname": "column_break_siuf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_zkzg",
+   "fieldtype": "Section Break",
+   "label": "Itens da Receita"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-28 06:09:55.513908",
+ "modified_by": "Administrator",
+ "module": "Calc Nutricional",
+ "name": "Receita",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
