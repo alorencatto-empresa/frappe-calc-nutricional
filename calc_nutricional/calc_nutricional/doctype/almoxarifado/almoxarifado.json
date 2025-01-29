@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-01-29 11:37:16.189685",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_yxip",
+  "filial",
+  "column_break_jcjl",
+  "codigo",
+  "section_break_0pai",
+  "descri\u00e7\u00e3o"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_yxip",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_jcjl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "codigo",
+   "fieldtype": "Data",
+   "label": "C\u00f3digo"
+  },
+  {
+   "fieldname": "section_break_0pai",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "descri\u00e7\u00e3o",
+   "fieldtype": "Data",
+   "label": "Descri\u00e7\u00e3o"
+  },
+  {
+   "fieldname": "filial",
+   "fieldtype": "Link",
+   "label": "Filial",
+   "options": "Branch"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-29 11:45:15.900634",
+ "modified_by": "Administrator",
+ "module": "Calc Nutricional",
+ "name": "Almoxarifado",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
