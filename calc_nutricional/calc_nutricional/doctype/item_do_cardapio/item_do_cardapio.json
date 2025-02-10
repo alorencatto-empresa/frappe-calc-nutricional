@@ -1,49 +1,43 @@
 {
  "actions": [],
  "autoname": "autoincrement",
- "creation": "2025-01-27 19:07:43.180541",
+ "creation": "2025-02-10 07:32:28.996276",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "section_break_lxhu",
-  "ingrediente",
-  "percapta",
-  "medida_caseira"
+  "section_break_cy2w",
+  "tipo_de_refeicao",
+  "alimento"
  ],
  "fields": [
   {
-   "fieldname": "section_break_lxhu",
+   "fieldname": "section_break_cy2w",
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "ingrediente",
+   "fieldname": "alimento",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Ingrediente",
+   "label": "Alimento",
    "options": "Alimento",
    "reqd": 1
   },
   {
-   "fieldname": "percapta",
-   "fieldtype": "Float",
-   "in_list_view": 1,
-   "label": "Per capta",
+   "fieldname": "tipo_de_refeicao",
+   "fieldtype": "Link",
+   "label": "Refei\u00e7\u00e3o",
+   "options": "Tipos de Refeicao",
    "reqd": 1
-  },
-  {
-   "fieldname": "medida_caseira",
-   "fieldtype": "Data",
-   "label": "Medida Caseira"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-02-10 07:30:11.819262",
+ "modified": "2025-02-10 09:19:47.584913",
  "modified_by": "Administrator",
  "module": "Calc Nutricional",
- "name": "Item da Receita",
+ "name": "Item do Cardapio",
  "naming_rule": "Autoincrement",
  "owner": "Administrator",
  "permissions": [],

@@ -245,7 +245,7 @@
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-23 11:01:59.744028",
+ "modified": "2025-02-10 07:26:59.390888",
  "modified_by": "Administrator",
  "module": "Calc Nutricional",
  "name": "Alimento",
@@ -266,8 +266,11 @@
   }
  ],
  "quick_entry": 1,
+ "search_fields": "alimento",
+ "show_preview_popup": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "alimento",
  "track_changes": 1
 }
