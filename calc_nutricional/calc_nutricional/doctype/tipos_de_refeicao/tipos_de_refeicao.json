@@ -14,16 +14,18 @@
    "fieldtype": "Section Break"
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "refeicao",
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Refei\u00e7\u00e3o",
-   "reqd": 1
+   "reqd": 1,
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-10 09:21:19.370313",
+ "modified": "2025-02-14 09:44:28.161347",
  "modified_by": "Administrator",
  "module": "Calc Nutricional",
  "name": "Tipos de Refeicao",
@@ -44,6 +46,7 @@
   }
  ],
  "search_fields": "refeicao",
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
