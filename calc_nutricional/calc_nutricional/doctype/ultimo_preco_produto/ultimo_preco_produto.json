@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-05-23 13:22:59.472173",
+ "description": "Tabela que lista o \u00faltimo pre\u00e7o do produto",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_yixi",
+  "filial",
+  "merenda",
+  "almoxarifado",
+  "tipo",
+  "data_referencia",
+  "alimento",
+  "preco",
+  "data_ultima_compra"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_yixi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "filial",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Filial",
+   "options": "Branch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "merenda",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Merenda",
+   "options": "Merenda",
+   "reqd": 1
+  },
+  {
+   "fieldname": "alimento",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Alimento",
+   "options": "Alimento",
+   "reqd": 1
+  },
+  {
+   "fieldname": "preco",
+   "fieldtype": "Float",
+   "label": "Pre\u00e7o",
+   "reqd": 1
+  },
+  {
+   "default": "Padr\u00e3o",
+   "fieldname": "tipo",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "Tipo",
+   "options": "Padr\u00e3o\nAgro",
+   "reqd": 1
+  },
+  {
+   "fieldname": "data_ultima_compra",
+   "fieldtype": "Datetime",
+   "label": "Data \u00faltima compra",
+   "reqd": 1
+  },
+  {
+   "fieldname": "almoxarifado",
+   "fieldtype": "Link",
+   "label": "Almoxarifado",
+   "options": "Almoxarifado",
+   "reqd": 1
+  },
+  {
+   "fieldname": "data_referencia",
+   "fieldtype": "Date",
+   "label": "Data Refer\u00eancia",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-05-23 13:35:19.480631",
+ "modified_by": "Administrator",
+ "module": "Calc Nutricional",
+ "name": "Ultimo Preco Produto",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
