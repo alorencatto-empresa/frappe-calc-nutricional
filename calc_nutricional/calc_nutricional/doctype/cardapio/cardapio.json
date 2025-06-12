@@ -27,9 +27,11 @@
   },
   {
    "fieldname": "section_break_ngk4",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Receitas"
   },
   {
+   "description": "Receitas do card\u00e1pio",
    "fieldname": "itens",
    "fieldtype": "Table",
    "label": "Itens",
@@ -41,6 +43,7 @@
    "fieldtype": "Section Break"
   },
   {
+   "description": "Frequ\u00eancia do card\u00e1pio (em dias)",
    "fieldname": "frequ\u00eancia",
    "fieldtype": "Int",
    "in_list_view": 1,
@@ -57,7 +60,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-10 09:17:20.592831",
+ "modified": "2025-06-12 11:49:46.353460",
  "modified_by": "Administrator",
  "module": "Calc Nutricional",
  "name": "Cardapio",

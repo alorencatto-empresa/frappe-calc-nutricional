@@ -65,7 +65,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-28 06:09:55.513908",
+ "modified": "2025-06-12 11:51:58.487458",
  "modified_by": "Administrator",
  "module": "Calc Nutricional",
  "name": "Receita",
@@ -85,7 +85,10 @@
    "write": 1
   }
  ],
+ "search_fields": "titulo",
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "titulo"
 }
