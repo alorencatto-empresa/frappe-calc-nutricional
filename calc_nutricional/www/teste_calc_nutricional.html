@@ -1,0 +1,5 @@
+### Lista de Usuários
+
+{% for user in users %}
+2. {{ user.first_name }} {{ user.get("last_name", "") }}
+{% endfor %}

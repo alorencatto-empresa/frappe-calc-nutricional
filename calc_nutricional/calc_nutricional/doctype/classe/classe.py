@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class ItemdoCardapio(Document):
+class Classe(Document):
 	pass

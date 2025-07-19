@@ -1,0 +1,23 @@
+{
+ "content": null,
+ "creation": "2025-07-10 11:50:51.591777",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2025-07-10 11:50:51.591777",
+ "modified_by": "Administrator",
+ "module": "Calc Nutricional",
+ "name": "teste_calc_nutricion",
+ "owner": "Administrator",
+ "page_name": "teste_calc_nutricion",
+ "roles": [
+  {
+   "role": "Administrator"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "teste"
+}

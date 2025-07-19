@@ -7,16 +7,19 @@
  "field_order": [
   "section_break_silu",
   "merenda",
+  "classe",
+  "column_break_mbej",
   "descricao",
-  "section_break_ngk4",
-  "itens",
-  "section_break_zho5",
-  "frequ\u00eancia"
+  "refei\u00e7\u00e3o",
+  "frequ\u00eancia",
+  "receitas_section",
+  "itens_do_cardapio"
  ],
  "fields": [
   {
    "fieldname": "section_break_silu",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Informa\u00e7\u00f5es Gerais"
   },
   {
    "fieldname": "descricao",
@@ -24,23 +27,6 @@
    "in_list_view": 1,
    "label": "Descri\u00e7\u00e3o",
    "reqd": 1
-  },
-  {
-   "fieldname": "section_break_ngk4",
-   "fieldtype": "Section Break",
-   "label": "Receitas"
-  },
-  {
-   "description": "Receitas do card\u00e1pio",
-   "fieldname": "itens",
-   "fieldtype": "Table",
-   "label": "Itens",
-   "options": "Item do Cardapio",
-   "reqd": 1
-  },
-  {
-   "fieldname": "section_break_zho5",
-   "fieldtype": "Section Break"
   },
   {
    "description": "Frequ\u00eancia do card\u00e1pio (em dias)",
@@ -56,11 +42,39 @@
    "label": "Merenda",
    "options": "Merenda",
    "reqd": 1
+  },
+  {
+   "fieldname": "refei\u00e7\u00e3o",
+   "fieldtype": "Link",
+   "label": "Refei\u00e7\u00e3o",
+   "options": "Refeicao"
+  },
+  {
+   "fieldname": "classe",
+   "fieldtype": "Link",
+   "label": "Classe",
+   "options": "Classe",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_mbej",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "receitas_section",
+   "fieldtype": "Section Break",
+   "label": "Receitas"
+  },
+  {
+   "fieldname": "itens_do_cardapio",
+   "fieldtype": "Table",
+   "label": "Itens do Card\u00e1pio",
+   "options": "Itens do Cardapio"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-12 11:49:46.353460",
+ "modified": "2025-07-19 16:35:14.009394",
  "modified_by": "Administrator",
  "module": "Calc Nutricional",
  "name": "Cardapio",

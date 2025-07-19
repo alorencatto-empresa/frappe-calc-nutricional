@@ -1,32 +1,23 @@
 {
  "actions": [],
  "autoname": "autoincrement",
- "creation": "2025-02-10 07:32:28.996276",
- "description": "Tabela referente aos itens do card\u00e1pio",
+ "creation": "2025-07-19 16:33:16.485527",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "section_break_cy2w",
-  "refeicao",
+  "section_break_llje",
   "receita"
  ],
  "fields": [
   {
-   "fieldname": "section_break_cy2w",
+   "fieldname": "section_break_llje",
    "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "refeicao",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Refei\u00e7\u00e3o",
-   "options": "Tipos de Refeicao",
-   "reqd": 1
   },
   {
    "fieldname": "receita",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Receita",
    "options": "Receita",
    "reqd": 1
@@ -35,10 +26,10 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-06-12 11:53:21.207998",
+ "modified": "2025-07-19 16:33:57.269269",
  "modified_by": "Administrator",
  "module": "Calc Nutricional",
- "name": "Item do Cardapio",
+ "name": "Itens do Cardapio",
  "naming_rule": "Autoincrement",
  "owner": "Administrator",
  "permissions": [],
