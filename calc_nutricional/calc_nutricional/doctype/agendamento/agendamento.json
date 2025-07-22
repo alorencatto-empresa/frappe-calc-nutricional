@@ -1,0 +1,118 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-07-19 18:01:39.852193",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "descri\u00e7\u00e3o__classe__merenda_section",
+  "descricao",
+  "column_break_ibsk",
+  "classe",
+  "column_break_cccg",
+  "merenda",
+  "vig\u00eancia_section",
+  "data_inicial",
+  "column_break_gsve",
+  "data_final",
+  "card\u00e1pios_section",
+  "cardapios"
+ ],
+ "fields": [
+  {
+   "fieldname": "descri\u00e7\u00e3o__classe__merenda_section",
+   "fieldtype": "Section Break",
+   "label": "Descri\u00e7\u00e3o / Classe / Merenda"
+  },
+  {
+   "fieldname": "descricao",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Descri\u00e7\u00e3o",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ibsk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "classe",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Classe",
+   "options": "Classe",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_cccg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "merenda",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Merenda",
+   "options": "Merenda",
+   "reqd": 1
+  },
+  {
+   "fieldname": "vig\u00eancia_section",
+   "fieldtype": "Section Break",
+   "label": "Vig\u00eancia"
+  },
+  {
+   "fieldname": "data_inicial",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Data Inicial",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_gsve",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_final",
+   "fieldtype": "Datetime",
+   "label": "Data Final",
+   "reqd": 1
+  },
+  {
+   "fieldname": "card\u00e1pios_section",
+   "fieldtype": "Section Break",
+   "label": "Card\u00e1pios"
+  },
+  {
+   "fieldname": "cardapios",
+   "fieldtype": "Table",
+   "label": "Itens",
+   "options": "Cardapios dos Agendamentos",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-19 18:12:54.823532",
+ "modified_by": "Administrator",
+ "module": "Calc Nutricional",
+ "name": "Agendamento",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

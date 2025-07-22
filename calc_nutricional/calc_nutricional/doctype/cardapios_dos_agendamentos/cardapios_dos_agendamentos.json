@@ -1,0 +1,37 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-07-19 18:05:48.342063",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_7uq8",
+  "cardapio"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_7uq8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cardapio",
+   "fieldtype": "Link",
+   "label": "Card\u00e1pio",
+   "options": "Cardapio"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-19 18:06:19.745221",
+ "modified_by": "Administrator",
+ "module": "Calc Nutricional",
+ "name": "Cardapios dos Agendamentos",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

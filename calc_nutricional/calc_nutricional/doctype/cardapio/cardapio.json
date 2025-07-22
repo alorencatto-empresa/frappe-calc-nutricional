@@ -74,7 +74,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-19 16:35:14.009394",
+ "modified": "2025-07-19 18:11:00.572426",
  "modified_by": "Administrator",
  "module": "Calc Nutricional",
  "name": "Cardapio",
@@ -94,7 +94,10 @@
    "write": 1
   }
  ],
+ "search_fields": "descricao",
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "descricao"
 }

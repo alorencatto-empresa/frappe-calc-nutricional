@@ -2,6 +2,7 @@
  "actions": [],
  "autoname": "autoincrement",
  "creation": "2025-07-19 16:25:00.677206",
+ "default_view": "List",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -19,7 +20,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-19 16:39:45.898990",
+ "modified": "2025-07-19 18:08:58.020285",
  "modified_by": "Administrator",
  "module": "Calc Nutricional",
  "name": "Classe",
@@ -40,6 +41,7 @@
   }
  ],
  "search_fields": "descricao",
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
